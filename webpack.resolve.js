@@ -6,6 +6,7 @@ module.exports = {
     extensions: ['.ts', '.js', '.json'],
     modules: ['node_modules'],
     alias: {
+      '@ReactTerm': path.resolve(__dirname, 'packages/react-term/src/ReactTerm'),
       '@TerminalsOrchestrator': path.resolve(__dirname, 'packages/terminals-orchestrator/src/TerminalsOrchestrator'),
       '@Modals': path.resolve(__dirname, 'packages/modals-plugin/src/Modals'),
       '@StatusBar': path.resolve(__dirname, 'packages/status-bar-plugin/src/StatusBar'),
@@ -15,7 +16,7 @@ module.exports = {
       '@Dropdown': path.resolve(__dirname, 'packages/dropdown-plugin/src/Dropdown'),
       '@ContextMenu': path.resolve(__dirname, 'packages/context-menu-plugin/src/ContextMenu'),
       '@Term': path.resolve(__dirname, 'packages/term/src/Term'),
-      'utils': path.resolve(__dirname, 'general/utils'),
+      '@general': path.resolve(__dirname, 'general'),
     },
   },
 };
