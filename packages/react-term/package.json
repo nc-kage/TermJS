@@ -33,7 +33,11 @@
   "dependencies": {
     "@term-js/term": "file:../term",
     "@types/lodash-es": "^4.17.3",
-    "lodash-es": "^4.17.15"
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "lodash-es": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.10.1",

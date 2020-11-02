@@ -43,7 +43,7 @@ getInput([
   return mkDir(rootDirPath)
     .then(() => appendText(
       TS_ROOT_CONFIG_PATH,
-      `\n      "@${alias}/*": ["${name}/src/${alias}/*"],`,
+      `\n      "@${alias}/*": ["packages/${name}/src/${alias}/*"],`,
       '"paths": {',
     )).then(() => appendText(
       WEBPACK_RESOLVE_PATH,

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@ReactTerm/*": ["react-term/src/ReactTerm/*"],
+      "@ReactTerm/*": ["packages/react-term/src/ReactTerm/*"],
       "@TerminalsOrchestrator/*": ["packages/terminals-orchestrator/src/TerminalsOrchestrator/*"],
       "@Modals/*": ["packages/modals-plugin/src/Modals/*"],
       "@StatusBar/*": ["packages/status-bar-plugin/src/StatusBar/*"],

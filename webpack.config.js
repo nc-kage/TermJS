@@ -2,18 +2,18 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = ({ cssBlackList, scss, root, resolve = {} }) => {
+module.exports = ({ cssBlackList, scss, root, isReact = false, resolve = {} }) => {
   const { includePaths = [], outputFileName = 'styles.css' } = scss || {};
   return {
     mode: 'development',
-    entry: path.resolve(root, './src/start.ts'),
+    entry: path.resolve(root, isReact ? './src/start.tsx' : './src/start.ts'),
     devtool: 'inline-source-map',
     context: root,
 
     module: {
       rules: [
         {
-          test: /\.ts?$/,
+          test: /\.tsx?$/,
           loader: ['awesome-typescript-loader?module=es6'],
           exclude: [/node_modules/]
         },

@@ -1,5 +1,4 @@
 import { Term, ITerm } from '@term-js/term';
-import { noop } from 'lodash-es';
 import '@term-js/term/dist/index.css';
 
 import Modals from '@Modals/index';

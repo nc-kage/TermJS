@@ -7,7 +7,8 @@
     "declaration": true,
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "jsx": "react"
   },
   "exclude": ["tests/**/*.*", "src/start.ts"]
 }

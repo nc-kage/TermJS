@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   resolve: {
-    extensions: ['.ts', '.js', '.json'],
+    extensions: ['.ts', '.tsx', '.js', '.json'],
     modules: ['node_modules'],
     alias: {
       '@ReactTerm': path.resolve(__dirname, 'src/ReactTerm'),

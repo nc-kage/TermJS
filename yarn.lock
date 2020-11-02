@@ -2177,8 +2177,8 @@
 "@term-js/autocomplete-plugin@file:packages/autocomplete-plugin":
   version "0.1.0"
   dependencies:
-    "@term-js/dropdown-plugin" "file:../../Library/Caches/Yarn/v4/npm-@term-js-autocomplete-plugin-0.1.0-2e1b1422-f43f-470a-81a2-7a3a71e7c278-1593269174650/node_modules/@term-js/dropdown-plugin"
-    "@term-js/term" "file:../../Library/Caches/Yarn/v4/npm-@term-js-autocomplete-plugin-0.1.0-2e1b1422-f43f-470a-81a2-7a3a71e7c278-1593269174650/node_modules/@term-js/term"
+    "@term-js/dropdown-plugin" "file:../../Library/Caches/Yarn/v4/npm-@term-js-autocomplete-plugin-0.1.0-27b021fc-1d3c-4158-bc7c-a6be19858355-1593413818987/node_modules/@term-js/dropdown-plugin"
+    "@term-js/term" "file:../../Library/Caches/Yarn/v4/npm-@term-js-autocomplete-plugin-0.1.0-27b021fc-1d3c-4158-bc7c-a6be19858355-1593413818987/node_modules/@term-js/term"
     "@types/lodash-es" "^4.17.3"
     "@types/uuid" "^8.0.0"
     lodash-es "^4.17.15"
@@ -2187,15 +2187,15 @@
 "@term-js/context-menu-plugin@file:packages/context-menu-plugin":
   version "0.1.0"
   dependencies:
-    "@term-js/term" "file:../../Library/Caches/Yarn/v4/npm-@term-js-context-menu-plugin-0.1.0-9eefee77-14de-4c9a-bd28-b5a01fe1cb41-1593269174652/node_modules/@term-js/term"
+    "@term-js/term" "file:../../Library/Caches/Yarn/v4/npm-@term-js-context-menu-plugin-0.1.0-3502379d-24e3-4a2d-95bd-ca9ded78eb0b-1593413818990/node_modules/@term-js/term"
     "@types/lodash-es" "^4.17.3"
     lodash-es "^4.17.15"
 
 "@term-js/dropdown-plugin@file:packages/dropdown-plugin":
   version "0.1.0"
   dependencies:
-    "@term-js/context-menu-plugin" "file:../../Library/Caches/Yarn/v4/npm-@term-js-dropdown-plugin-0.1.0-c28c8024-7555-4789-89b6-dcd4e76ef162-1593269174652/node_modules/@term-js/context-menu-plugin"
-    "@term-js/term" "file:../../Library/Caches/Yarn/v4/npm-@term-js-dropdown-plugin-0.1.0-c28c8024-7555-4789-89b6-dcd4e76ef162-1593269174652/node_modules/@term-js/term"
+    "@term-js/context-menu-plugin" "file:../../Library/Caches/Yarn/v4/npm-@term-js-dropdown-plugin-0.1.0-ed41f3ed-e5df-4ee8-96f3-e4392cddf87e-1593413818992/node_modules/@term-js/context-menu-plugin"
+    "@term-js/term" "file:../../Library/Caches/Yarn/v4/npm-@term-js-dropdown-plugin-0.1.0-ed41f3ed-e5df-4ee8-96f3-e4392cddf87e-1593413818992/node_modules/@term-js/term"
     "@types/lodash-es" "^4.17.3"
     lodash-es "^4.17.15"
 
@@ -2347,10 +2347,30 @@
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.0.1.tgz#b6e98083f13faa1e5231bfa3bdb1b0feff536b6d"
   integrity sha512-boy4xPNEtiw6N3abRhBi/e7hNvy3Tt8E9ZRAQrwAGzoCGZS/1wjo9KY7JHhnfnEsG5wSjDbymCozUM9a3ea7OQ==
 
+"@types/prop-types@*":
+  version "15.7.3"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+
 "@types/q@^1.5.1":
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
+
+"@types/react-dom@^16.9.8":
+  version "16.9.8"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.8.tgz#fe4c1e11dfc67155733dfa6aa65108b4971cb423"
+  integrity sha512-ykkPQ+5nFknnlU6lDd947WbQ6TE3NNzbQAkInC2EKY1qeYdTKp7onFusmYZb+ityzx2YviqT6BXSu+LyWWJwcA==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^16.9.41":
+  version "16.9.41"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.41.tgz#925137ee4d2ff406a0ecf29e8e9237390844002e"
+  integrity sha512-6cFei7F7L4wwuM+IND/Q2cV1koQUvJ8iSV+Gwn0c3kvABZ691g7sp3hfEQHOUBJtccl1gPi+EyNjMIl9nGA0ug==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
 
 "@types/resolve@0.0.8":
   version "0.0.8"
@@ -4420,6 +4440,11 @@ cssstyle@^2.2.0:
   integrity sha512-AZL67abkUzIuvcHqk7c09cezpGNcxUxU4Ioi/05xHk4DQeTkWmGYftIE6ctU6AEt+Gn4n1lDStOtj7FKycP71A==
   dependencies:
     cssom "~0.3.6"
+
+csstype@^2.2.0:
+  version "2.6.10"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.10.tgz#e63af50e66d7c266edb6b32909cfd0aabe03928b"
+  integrity sha512-D34BqZU4cIlMCY93rZHbrq9pjTAQJ3U8S8rfBqjwHxkGPThWFjzZDQpgMJY0QViLxth6ZKYiwFBo14RdN44U/w==
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -7733,7 +7758,7 @@ loglevelnext@^1.0.1:
     es6-symbol "^3.1.1"
     object.assign "^4.1.0"
 
-loose-envify@^1.0.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -9731,6 +9756,15 @@ promzard@^0.3.0:
   dependencies:
     read "1"
 
+prop-types@^15.6.2:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 proto-list@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/proto-list/-/proto-list-1.2.4.tgz#212d5bfe1318306a420f6402b8e26ff39647a849"
@@ -9896,10 +9930,29 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-is@^16.12.0:
+react-dom@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
+  integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
+
+react-is@^16.12.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
+  integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 read-cmd-shim@^1.0.1:
   version "1.0.5"
@@ -10543,6 +10596,14 @@ saxes@^5.0.0:
   integrity sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==
   dependencies:
     xmlchars "^2.2.0"
+
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 schema-utils@^1.0.0:
   version "1.0.0"
